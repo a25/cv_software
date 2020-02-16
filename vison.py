@@ -4,7 +4,7 @@ import numpy as np
 import csv
 import sys
 pytesseract.pytesseract.tesseract_cmd=r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
-imageName='che.jpeg'
+imageName='assets\\che.jpeg'
 img=cv2.imread(imageName)
 if(img is not None):
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
